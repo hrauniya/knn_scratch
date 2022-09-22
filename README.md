@@ -51,7 +51,7 @@ The accuracy increases from k=2 to k=3. I think this is because now there are mo
 
 README
 
-2)I enjoyed implementing the knn algorithm from scratch. Implementing it from scratch gave me a more clear idea on its workings. I, however, want to learn more about how to increase the complexity of this algorithm by using something like KD-trees.
+2)I enjoyed implementing the knn algorithm from scratch. Implementing it from scratch gave me a more clear idea on its workings. I, however, want to learn more about how to decrease the complexity of this algorithm by using something like KD-trees.
 
 3)I spent around 6-7 hours working on this assignment. 
 
