@@ -1,7 +1,47 @@
 Harsha Rauniyar
 
+knn.py contains implementation of the K-nearest neighbor algorithm.
+Run the program in the command line as follows:
+It should take as input five parameters:
+
+a. The path to a file containing a data set
+b. The name of the distance function to use, from the set {H, E} (where H stands for
+Hamming and E stands for Euclidian)
+c. The value of k to use in the k-Nearest Neighbors algorithm
+d. The percentage of instances to use for a training set
+e. An integer to use as a random seed
+
+For example,
+python knn mnist_100.csv E 1 0.75 12345
+which will perform 1-Nearest Neighbors on mnist_100.csv using the Euclidian distance
+function and a random seed of 12345, where 75% of the data will be used for training
+(and the remaining 25% will be used for testing)
+
+Output should be a confusion matrix(Predicted Labels vs Actual Labels)
+
 Research Questions
 
+Please use your program to answer these research questions and record your answers in a
+README.md file:
+1) Pick a single random seed and a single training set percentage (document both in your
+README) and run k-Nearest Neighbors with a k = 1 on each of the four data sets. What
+is the accuracy you observed on each data set?
+
+2) Using the accuracies from Question 1, calculate a 95% confidence interval around the
+accuracy on each data set.
+
+3) How did your accuracy compare between the mnist_100 and mnist_1000 data sets?
+Which had the higher average? Why do you think you observed this result? Did their
+confidence intervals overlap? What conclusion can we draw based on their confidence
+intervals?
+
+4) Pick one data set and three different values of k (document both in your README). Run
+the program with each value of k on that data set and compare the accuracy values
+observed. Did changing the value of k have much of an effect on your results? Speculate
+as to why or why not that observation occurred?
+
+
+Answers
 1)
 By calculating the sum of the diagonals and dividing it by sum of all cell, we can find the accuracy of each data-set. Here is 
 the list of accuracy I found for each dataset. 
